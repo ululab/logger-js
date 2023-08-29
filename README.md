@@ -29,11 +29,16 @@ Logger.channel('contatti').error({message: 'Email non inviata'})
 {"label":"contatti","level":"error","message":"Email  non inviata","timestamp":"2023-08-29T08:45:28.475Z"}
 ```
 
-Per scrivere su un file differente passare il secondo paramentro, se omesso scrive su /logs/app.log
+Per scrivere su un file differente passare il nome del file nel secondo paramentro; se passato in `true` scrive su /logs/app.log
 ```js
 Logger.channel('contatti', 'conattti-my-syte').error({message: 'Email non inviata'})
+Logger.channel('contatti', true).error({message: 'Email non inviata'})
 ```
 > **File:** /logs/conattti-my-syte.log
+```log
+{"label":"contatti","level":"error","message":"Email  non inviata","timestamp":"2023-08-29T08:45:28.475Z"}
+```
+> **File:** /logs/app.log
 ```log
 {"label":"contatti","level":"error","message":"Email  non inviata","timestamp":"2023-08-29T08:45:28.475Z"}
 ```
