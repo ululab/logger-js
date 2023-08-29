@@ -1,5 +1,5 @@
 {
-  "name": "logger-js",
+  "name": "@ululab/logger-js",
   "version": "1.0.0",
   "description": "Scrittura log con winston",
   "main": "index.js",
