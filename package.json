@@ -1,0 +1,31 @@
+{
+  "name": "@ululab/logger-js",
+  "version": "1.0.0",
+  "description": "Collegamenti e chiamate a SAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "logger",
+    "winston",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ululab/logger-js.git"
+  },
+  "author": "Ululab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ululab/logger-js/issues"
+  },
+  "homepage": "https://github.com/ululab/logger-js#readme",
+  "dependencies": {
+    "winston": "^3.10.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ululab"
+  }
+}
+
