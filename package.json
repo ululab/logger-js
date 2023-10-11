@@ -1,6 +1,6 @@
 {
   "name": "@ululab/logger-js",
-  "version": "1.0.1",
+  "version": "1.0.1.1",
   "description": "Scrittura log con winston",
   "main": "index.js",
   "directories": {
