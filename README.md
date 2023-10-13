@@ -3,7 +3,7 @@ Scrittura di log basato su winston
 
 Using npm:
 ```bash
-$ npm install @uluab/logger-js
+$ npm install @ululab/logger-js
 ```
 
 Inclusione pacchetto
